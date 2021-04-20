@@ -19,6 +19,6 @@ jobs:
           cat metrics.txt  >> report.md
           cml-publish feature_importance.png >> report.md
           cml-publish residuals.png >> report.md
-          cml-send-commend  >> report.md
+          cml-send-comment  >> report.md
           
           
