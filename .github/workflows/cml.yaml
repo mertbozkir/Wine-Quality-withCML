@@ -14,7 +14,7 @@ jobs:
           # Your ML workflow goes here
           pip install -r requirements.txt
           python3 train.py
-          
+          #we changed thing
           echo "Model Metrics" >> report.md
           cat metrics.txt  >> report.md
           cml-publish feature_importance.png >> report.md
